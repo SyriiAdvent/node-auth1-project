@@ -7,6 +7,9 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+  "nodemonConfig": {
+    "ignore": ["auth-front/*"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SyriiAdvent/node-auth1-project.git"
